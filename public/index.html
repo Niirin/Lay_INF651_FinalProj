@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +11,120 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Nilin Lay</title>
 </head>
-<body bg-surface>
+<body class="bg-surface text-text" data-theme="mytheme">
+  <header>
     <div class="navbar">
         <div class="flex-1">
           <a class="px-1 uppercase text-3xl font-display">Nilin Lay</a>
         </div>
         <div class="flex-none">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="menu menu-horizontal px-1 text-xl">
             <li><a>Home</a></li>
             <li><a>Projects</a></li>
             <li><a>About</a></li>
-            <li><a>Learnings</a></li>
+            <li><a target="_blank" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece">Learnings</a></li>
             <li><a>Contact</a></li>
           </ul>
         </div>
       </div>
+  </header>
+  <!-- section for hero -->
+  <section class="w-screen flex relative justify-center">
+    <div>
+      <img src="./stars2.jpg" alt="falling stars nightsky">
+    </div>
+      <div class="hero absolute bottom-3 w-4/5 pb-5 flex flex-col" >
+        <div>
+          <h2 class="text-2xl py-5 font-display"> Weaving code and creativity, construct digital landscapes that connect users across the virtual expanse.</h2>
+        </div>
+        <div class="self-center">
+          <button class="btn bg-text">ABOUT</button>
+        </div>
+      </div>
+  </section>
+  <!-- Projects -->
+   <section class="projects w-4/5 mx-auto my-10 pb-3" id="projects">
+    <div class="w-4/5 m-auto">
+      <h1 class="text-2xl font-bold uppercase py-5">Projects</h1>
+      <div class="card card-side bg-white shadow-md mb-5">
+        <figure class="max-w-md">
+          <img
+            src="./To-DoList.png"
+            alt="To-DoList website" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">React ToDo List</h2>
+          <p>Analyze the functions required for the TodoList and implement them as a React library. 
+            Add a search function to search the created Todos.</p>
+            <!-- <a>Github</a>
+            <a>Demo</a> -->
+        </div>
+      </div>
+      <div class="card card-side bg-white shadow-md mb-5">
+        <figure class="max-w-md">
+          <img
+            src="./WeatherView.png"
+            alt="To-DoList website" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">React Weather Forecast</h2>
+          <p>A React website which fetches and displays current weather information using Geolocation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About -->
+   <section class="flex justify-between w-4/5 mx-auto pb-10" id="about">
+    <div class="max-w-xl self-start">
+      <h1 class="text-2xl font-bold uppercase py-5">about</h1>
+      <p class="font-normal">Hello there! I am  Nilin -- an aspiring web developer, and budding software developer.</p>
+      <p class="font-thin">My passion for tech has brought me on the long journey as a software developer contributing my skills and knowledge to effectively use technology  to  bring  efficient  work  flow  to your organization.</p>
+      <p class="font-normal">In the past year, leading a team project with Agile methodology has taught me how to manage time efficiently, how to plan ahead, and how to adapt under pressure.</p>
+      <button class="btn mt-5">CONTACT ME</button>
+    </div>
+    <div class="avatar max-w-sm self-end">
+      <div class="mask mask-squircle">
+        <img src="./Me-2022.jpg" alt="Nilin in suits"/>
+      </div>
+    </div>
+   </section>
+
+   <!-- Testimonials -->
+    <section class="testimonial w-4/5 mx-auto border rounded mb-10">
+      <div class="card w-full">
+        <div class="card-body">
+          <h3 class="card-title italic">"As her coordinator, I have had an opportunity to observe her participation and interaction in classes and to evaluate Ms. Nilin LAY’s knowledge of both matters in technical subjects and soft-skills. She is an outstanding student in all respects. She has proven that through hard work, follow through, and teamwork. 
+            She can accomplish tasks in the most and best possible way."</h3>
+          <p class="font-light">Vichet Young</p>
+          <p class="font-light">Coordinator of AnB</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+     <footer class="footer bg-neutral-50 text-base-content p-10 flex justify-between">
+      <nav>
+        <p class="px-1  text-text uppercase text-3xl font-display"> NILIN LAY</p>
+        <div class="grid grid-flow-col gap-3">
+          <a>
+            <img src="./x-logo.jpg" alt="X logo" class="max-w-6 h-6"/>
+          </a>
+          <a>
+            <img src="./ig-logo.png" alt="instagram logo" class="max-w-6 h-6" />
+          </a>
+          <a>
+            <img src="./Linked-logo.png" alt="linkedin logo" class="max-w-6 h-6"/>
+          </a>
+        </div>
+      </nav>
+      <nav class="pr-20 text-text text-lg uppercase">
+        <a class="link link-hover">Home</h6>
+        <a class="link link-hover">Projects</a>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece" target="_blank">Learnings</a>
+        <a class="link link-hover">Contact</a>
+      </nav>
+     </footer>
 </body>
 </html>
