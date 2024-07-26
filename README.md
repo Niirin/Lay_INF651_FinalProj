@@ -13,7 +13,7 @@ This project is a professional portfolio using JavaScript and other frameworks w
 - Tailwind CSS/ DaisyUI
 - Npm
 
-### Deployed Website v1: [Portfolio]()
+### Deployed Website v1: [Portfolio](https://lay-inf-651-final-proj.vercel.app/)
 
 
 
