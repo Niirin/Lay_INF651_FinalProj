@@ -19,11 +19,11 @@
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1 text-xl">
-            <li><a>Home</a></li>
-            <li><a>Projects</a></li>
-            <li><a>About</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
             <li><a target="_blank" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece">Learnings</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -31,14 +31,14 @@
   <!-- section for hero -->
   <section class="w-screen flex relative justify-center">
     <div>
-      <img src="./stars2.jpg" alt="falling stars nightsky">
+      <img src="./img/stars2.jpg" alt="falling stars nightsky">
     </div>
       <div class="hero absolute bottom-3 w-4/5 pb-5 flex flex-col" >
         <div>
           <h2 class="text-2xl py-5 font-display"> Weaving code and creativity, construct digital landscapes that connect users across the virtual expanse.</h2>
         </div>
         <div class="self-center">
-          <button class="btn bg-text">ABOUT</button>
+          <button class="btn bg-text" onclick="document.location='#about'">ABOUT</button>
         </div>
       </div>
   </section>
@@ -49,7 +49,7 @@
       <div class="card card-side bg-white shadow-md mb-5">
         <figure class="max-w-md">
           <img
-            src="./To-DoList.png"
+            src="./img/To-DoList.png"
             alt="To-DoList website" />
         </figure>
         <div class="card-body">
@@ -63,7 +63,7 @@
       <div class="card card-side bg-white shadow-md mb-5">
         <figure class="max-w-md">
           <img
-            src="./WeatherView.png"
+            src="./img/WeatherView.png"
             alt="To-DoList website" />
         </figure>
         <div class="card-body">
@@ -81,11 +81,11 @@
       <p class="font-normal">Hello there! I am  Nilin -- an aspiring web developer, and budding software developer.</p>
       <p class="font-thin">My passion for tech has brought me on the long journey as a software developer contributing my skills and knowledge to effectively use technology  to  bring  efficient  work  flow  to your organization.</p>
       <p class="font-normal">In the past year, leading a team project with Agile methodology has taught me how to manage time efficiently, how to plan ahead, and how to adapt under pressure.</p>
-      <button class="btn mt-5">CONTACT ME</button>
+      <button class="btn mt-5" onclick="document.location='./contact.html'">CONTACT ME</button>
     </div>
     <div class="avatar max-w-sm self-end">
       <div class="mask mask-squircle">
-        <img src="./Me-2022.jpg" alt="Nilin in suits"/>
+        <img src="./img/Me-2022.jpg" alt="Nilin in suits"/>
       </div>
     </div>
    </section>
@@ -108,23 +108,24 @@
         <p class="px-1  text-text uppercase text-3xl font-display"> NILIN LAY</p>
         <div class="grid grid-flow-col gap-3">
           <a>
-            <img src="./x-logo.jpg" alt="X logo" class="max-w-6 h-6"/>
+            <img src="./img/x-logo.jpg" alt="X logo" class="max-w-6 h-6"/>
           </a>
           <a>
-            <img src="./ig-logo.png" alt="instagram logo" class="max-w-6 h-6" />
+            <img src="./img/ig-logo.png" alt="instagram logo" class="max-w-6 h-6" />
           </a>
           <a>
-            <img src="./Linked-logo.png" alt="linkedin logo" class="max-w-6 h-6"/>
+            <img src="./img/Linked-logo.png" alt="linkedin logo" class="max-w-6 h-6"/>
           </a>
         </div>
       </nav>
       <nav class="pr-20 text-text text-lg uppercase">
-        <a class="link link-hover">Home</h6>
-        <a class="link link-hover">Projects</a>
-        <a class="link link-hover">About</a>
+        <a class="link link-hover" href="./index.html">Home</h6>
+        <a class="link link-hover" href="#projects">Projects</a>
+        <a class="link link-hover" href="#about">About</a>
         <a class="link link-hover" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece" target="_blank">Learnings</a>
-        <a class="link link-hover">Contact</a>
+        <a class="link link-hover" href="./contact.html">Contact</a>
       </nav>
      </footer>
+     <script type="text/javascript" src="../src/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <!-- link for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Nilin Lay</title>
+</head>
+<body class="bg-surface text-text" data-theme="mytheme">
+    <header>
+        <div class="navbar">
+            <div class="flex-1">
+              <a class="px-1 uppercase text-3xl font-display">Nilin Lay</a>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1 text-xl">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="./index.html#about">About</a></li>
+                <li><a target="_blank" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece">Learnings</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+    </header>
+    
+    <!-- Quotes and contact form -->
+    <section  class="w-4/5 mx-auto my-10 pb-3">
+        <div class="w-full mx-auto">
+            <h2 class="text-2xl py-5 font-display">Leave a message to find out more about me, my passion, or even just for a brief networking sesstion to find out how to drive growth for your web-based interests.</h2>
+        </div>
+        <form class="w-2/4" name="contactForm" onsubmit="return getValue()">
+            <label for="name" class="input bg-surface input-bordered input-primary flex items-center gap-2 my-5">
+                Name
+                <input id="name" name="senderName" type="text" class="grow" required placeholder="Nilin" />
+            </label>
+            <label for="email" class="input bg-surface input-bordered input-primary flex items-center gap-2 my-5">
+                Email
+                <input id="email" type="text" class="grow" required placeholder="abc@mail.com" />
+            </label>
+            <label for="message" class="flex flex-col">
+                <div class="label">
+                    <span class="text-text">Your message</span>
+                </div>
+                <textarea id="message" class="textarea bg-surface textarea-info textarea-bordered" placeholder="Write your message here..."></textarea>
+            </label>
+            <button type="submit" class="btn my-5">Submit</button>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-neutral-50 text-base-content p-10 flex justify-between">
+    <nav>
+        <p class="px-1  text-text uppercase text-3xl font-display"> NILIN LAY</p>
+        <div class="grid grid-flow-col gap-3">
+        <a>
+            <img src="./img/x-logo.jpg" alt="X logo" class="max-w-6 h-6"/>
+        </a>
+        <a>
+            <img src="./img/ig-logo.png" alt="instagram logo" class="max-w-6 h-6" />
+        </a>
+        <a>
+            <img src="./img/Linked-logo.png" alt="linkedin logo" class="max-w-6 h-6"/>
+        </a>
+        </div>
+    </nav>
+    <nav class="pr-20 text-text text-lg uppercase">
+        <a class="link link-hover" href="./index.html">Home</h6>
+        <a class="link link-hover" href="./index.html#projects">Projects</a>
+        <a class="link link-hover" href="./index.html#about">About</a>
+        <a class="link link-hover" href="https://mesquite-son-077.notion.site/a2d7fef5498f41d980eefc5bc4f0b2e6?v=36ed27ce481544c18ab9451eac542ece" target="_blank">Learnings</a>
+        <a class="link link-hover" href="./contact.html">Contact</a>
+    </nav>
+    </footer>
+    <script type="text/javascript" src="../src/index.js"></script>
+</body>
+</html>
