@@ -6,7 +6,14 @@ This project is a professional portfolio using JavaScript and other frameworks w
 - be a valuable tool to differentiate myself from others.
 - providing evidence of my capabilities.
 
-## Table of Contents
+## Tech Stack
+- HTML
+- CSS
+- Javascript
+- Tailwind CSS/ DaisyUI
+- Npm
+
+### Deployed Website v1: [Portfolio]()
 
 
 
